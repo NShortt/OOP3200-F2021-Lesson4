@@ -130,4 +130,33 @@ float Vector2D::Distance(const Vector2D& lhs, const Vector2D& rhs)
 	return sqrt((delta_x * delta_x) + (delta_y * delta_y));
 }
 
+Vector2D Vector2D::Zero()
+{
+	return Vector2D(0.0f, 0.0f);
+}
+
+Vector2D Vector2D::One()
+{
+	return Vector2D(1.0f, 1.0f);
+}
+
+Vector2D Vector2D::Right()
+{
+	return Vector2D(1.0f, 0.0f);
+}
+
+Vector2D Vector2D::Left()
+{
+	return Vector2D(-1.0f, 0.0f);
+}
+
+Vector2D Vector2D::Up()
+{
+	return Vector2D(0.0f, -1.0f);
+}
+
+Vector2D Vector2D::Down()
+{
+	return Vector2D(0.0f, 1.0f);
+}
 

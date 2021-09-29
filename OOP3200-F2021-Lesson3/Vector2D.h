@@ -47,6 +47,14 @@ public:
 	// PUBLIC STATIC METHODS (Public Class Functions that are Static)
 	static float Distance(const Vector2D& lhs, const Vector2D& rhs);
 
+	// Static utiliy functions
+	static Vector2D Zero();
+	static Vector2D One();
+	static Vector2D Right();
+	static Vector2D Left();
+	static Vector2D Up();
+	static Vector2D Down();
+
 private:
 	// ATTRIBUTES
 	float m_x{};
